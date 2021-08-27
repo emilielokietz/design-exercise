@@ -70,6 +70,7 @@ h1 {
         border: 1px solid hsl(322, 100%, 66%);
         padding: 15px 20px;
         width: 80%;
+        max-width: 320px;
         margin: 20px auto;
         color: white;
         border-radius: 25px;
@@ -88,7 +89,7 @@ h1 {
 
 
 
-@media (min-width:376px) {
+@media (min-width:824px) {
     
     .header {
         padding: 25px;
