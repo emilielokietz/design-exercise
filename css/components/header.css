@@ -7,7 +7,7 @@
   padding: 18px;
   background-image: url('../../design/images/bg-hero-mobile.svg');
   height: auto;
-  background-color: hsl(193, 100%, 96%);
+  background-color: var(--color-very-pale-cyan);
 }
 
 .top__bar {
