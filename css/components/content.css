@@ -33,7 +33,7 @@
   color: hsl(206, 11%, 55%);
 }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 1440px) {
   .main {
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 'text picture ';
