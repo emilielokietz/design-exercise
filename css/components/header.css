@@ -1,155 +1,133 @@
-
-
 * header {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;  
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
 }
 
-
-
-
-    
-    .header {
-        padding: 18px;
-        background-image: url('/Users/emilielokietz/neuefische/design-exercise/design/images/bg-hero-mobile.svg');
-        height: auto;
-        background-color: hsl(193, 100%, 96%);
-        
-    }
-    
-    
-    .top__bar {
-        display: flex;
-        justify-content: space-between;
-    
-    }
-    
-    .top__bar__logo {
-        width: 164px;
-        height: 27px;
-    }
-    
-    .top__bar__button {
-        background-color: white;
-        border-color: hsla(0, 0%, 85%, 0.589);
-        border-style: solid;
-        padding: 4px 17px;
-        border-radius: 20px;
-        box-shadow:0px 0px 10px #dedede;
-        font-size: 0.7em;
-        color: rgb(139, 138, 138);
-    
-    }
-    
-    .top__bar__button:hover {
-        cursor: pointer; 
-        color: rgb(177, 177, 177); 
-        padding: 4px 18px;
-    }
-    
-    .header__entry {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        align-content: center;
-        justify-content: center;
-        padding: 60px 20px;
-        
-    }
-    
-    .header__entry__title {
-        line-height: 32px;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 600;
-    }
-    
-    .header__entry__text {
-        line-height: 24px;
-    }
-    
-    .header__entry__button {
-        background-color: hsl(322, 100%, 66%);
-        border: 1px solid hsl(322, 100%, 66%);
-        padding: 15px 20px;
-        width: 80%;
-        max-width: 320px;
-        margin: 20px auto;
-        color: white;
-        border-radius: 25px;
-        margin-bottom: 50px;
-    }
-    
-    .header__entry__button:hover {
-        padding: 15px 25px;
-        cursor: pointer; 
-        background-color: hsl(322, 100%, 77%);
-        border: 1px solid hsl(322, 100%, 77%);
-        color: white;
-    }
-
-    .header__entry__img {
-        width: 100%;
-    }
-
-
-
-@media (min-width:824px) {
-    
-    .header {
-        padding: 25px;
-    }
-
-    .top__bar {
-        margin: 15px 30px;
-    }
- 
-    .top__bar__button {
-        padding: 10px 45px;
-        border-radius: 25px;
-
-    }
-
-    .top__bar__button:hover {
-        padding: 10px 49px;
-    }
-
-    .header__entry {
-        display: grid;
-        grid-template-columns: 2.5fr 3fr;
-        text-align: left;
-        grid-gap: 30px;
-        padding: 60px 35px;
-    }
-
-    .header__entry__title {
-        line-height: 45px;
-        font-size: 2em;
-        font-weight: 510;
-    }
-
-    .header__entry__text {
-        line-height: 20px;
-        font-size: 0.9em;
-        color: hsl(208, 10%, 38%);
-        font-weight: 300;
-    }
-
-    .header__entry__button {
-        padding: 12px 15px;
-        width: 55%;
-        font-size: 0.9em;
-    }
-    
-    .header__entry__button:hover {
-        width: 50%;
-        cursor: pointer; 
-        font-size: 0.7em;
-    }
-
-
+.header {
+  padding: 18px;
+  background-image: url('../../design/images/bg-hero-mobile.svg');
+  height: auto;
+  background-color: hsl(193, 100%, 96%);
 }
 
+.top__bar {
+  display: flex;
+  justify-content: space-between;
+}
 
+.top__bar__logo {
+  width: 164px;
+  height: 27px;
+}
 
+.top__bar__button {
+  background-color: white;
+  border-color: hsla(0, 0%, 85%, 0.589);
+  border-style: solid;
+  padding: 4px 17px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px #dedede;
+  font-size: 0.7em;
+  color: rgb(139, 138, 138);
+}
 
+.top__bar__button:hover {
+  cursor: pointer;
+  color: rgb(177, 177, 177);
+  padding: 4px 18px;
+}
 
+.header__entry {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  padding: 60px 20px;
+}
+
+.header__entry__title {
+  line-height: 32px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.header__entry__text {
+  line-height: 24px;
+}
+
+.header__entry__button {
+  background-color: hsl(322, 100%, 66%);
+  border: 1px solid hsl(322, 100%, 66%);
+  padding: 15px 20px;
+  width: 80%;
+  max-width: 320px;
+  margin: 20px auto;
+  color: white;
+  border-radius: 25px;
+  margin-bottom: 50px;
+}
+
+.header__entry__button:hover {
+  padding: 15px 25px;
+  cursor: pointer;
+  background-color: hsl(322, 100%, 77%);
+  border: 1px solid hsl(322, 100%, 77%);
+  color: white;
+}
+
+.header__entry__img {
+  width: 100%;
+}
+
+@media (min-width: 824px) {
+  .header {
+    padding: 25px;
+  }
+
+  .top__bar {
+    margin: 15px 30px;
+  }
+
+  .top__bar__button {
+    padding: 10px 45px;
+    border-radius: 25px;
+  }
+
+  .top__bar__button:hover {
+    padding: 10px 49px;
+  }
+
+  .header__entry {
+    display: grid;
+    grid-template-columns: 2.5fr 3fr;
+    text-align: left;
+    grid-gap: 30px;
+    padding: 60px 35px;
+  }
+
+  .header__entry__title {
+    line-height: 45px;
+    font-size: 2em;
+    font-weight: 510;
+  }
+
+  .header__entry__text {
+    line-height: 20px;
+    font-size: 0.9em;
+    color: hsl(208, 10%, 38%);
+    font-weight: 300;
+  }
+
+  .header__entry__button {
+    padding: 12px 15px;
+    width: 55%;
+    font-size: 0.9em;
+  }
+
+  .header__entry__button:hover {
+    width: 50%;
+    cursor: pointer;
+    font-size: 0.7em;
+  }
+}
