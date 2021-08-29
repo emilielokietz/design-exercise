@@ -5,7 +5,7 @@ footer {
 }
 
 .footer {
-  background-color: #00252f;
+  background-color: var(--color-very-dark-cyan);
   color: var(--color-very-pale-cyan);
   display: flex;
   flex-direction: column;
