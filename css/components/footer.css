@@ -44,6 +44,11 @@
   text-decoration: none;
   padding: 0 15px;
   margin: 30px 0 15px;
+  transition: color 0.3s ease-in;
+}
+
+.social-media__link:hover {
+  color: var(--color-primary);
 }
 
 .footer__icon {
@@ -59,8 +64,13 @@
 
 .footer__link {
   color: var(--color-very-pale-cyan);
+  display: inline-block;
   text-decoration: none;
   margin-bottom: 15px;
+}
+
+.footer__link:hover {
+  text-decoration: underline;
 }
 
 .footer__contact:last-child {
