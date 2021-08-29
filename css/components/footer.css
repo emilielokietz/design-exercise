@@ -1,7 +1,3 @@
-footer {
-  width: 375px;
-}
-
 .footer {
   background-color: var(--color-very-dark-cyan);
   color: var(--color-very-pale-cyan);
