@@ -1,0 +1,36 @@
+:root {
+    --color-primary: hsl(322, 100%, 66%);
+    --color-very-pale-cyan: hsl(193, 100%, 96%);
+    --color-very-dark-cyan: hsl(192, 100%, 9%);
+    --color-grayish-blue: hsl(208, 11%, 55%);
+
+    --font-poppins: 'Poppins', sans-serif;
+    --font-open-sans: 'Open Sans', sans-serif;
+}
+
+html {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: var(--font-poppins);
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-open-sans);
+    margin: 0 auto;
+    width: 375px;
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        width: 1440px;
+    }
+}
