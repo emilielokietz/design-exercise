@@ -3,6 +3,7 @@
   --color-very-pale-cyan: hsl(193, 100%, 96%);
   --color-very-dark-cyan: hsl(192, 100%, 9%);
   --color-grayish-blue: hsl(208, 11%, 55%);
+  --color-button-hover: hsl(322, 100%, 77%);
 
   --font-poppins: 'Poppins', sans-serif;
   --font-open-sans: 'Open Sans', sans-serif;
@@ -10,6 +11,8 @@
 
 html {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 * {
