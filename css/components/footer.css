@@ -23,7 +23,7 @@
   justify-content: center;
 }
 
-.footer__midde {
+.footer__nav {
   display: flex;
   flex-direction: column;
 }
@@ -75,23 +75,4 @@
 
 .footer__contact:last-child {
   margin-bottom: 30px;
-}
-
-@media screen and (min-width: 1440px) {
-  footer {
-    width: 1440px;
-  }
-  .footer {
-    padding: 30px 80px;
-  }
-  .footer__content {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .footer__copyright {
-    justify-content: flex-end;
-  }
-  .footer__info {
-    width: 300px;
-  }
 }

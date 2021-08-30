@@ -1,0 +1,81 @@
+@media only screen and (min-width: 1440px) {
+  .header {
+    background-image: url('../../design/images/bg-hero-desktop.svg');
+    padding: 25px;
+  }
+
+  .top-bar {
+    margin: 15px 30px;
+  }
+
+  .top-bar__button {
+    padding: 10px 45px;
+    border-radius: 25px;
+  }
+
+  .entry {
+    display: grid;
+    grid-template-columns: 2.5fr 3fr;
+    text-align: left;
+    grid-gap: 30px;
+    padding: 60px 35px;
+  }
+
+  .entry__title {
+    line-height: 45px;
+    font-size: 2em;
+    font-weight: 510;
+  }
+
+  .entry__text {
+    line-height: 20px;
+    font-size: 0.9em;
+    color: hsl(208, 10%, 38%);
+    font-weight: 300;
+  }
+
+  .entry__button {
+    padding: 12px 15px;
+    width: 50%;
+    font-size: 0.7em;
+  }
+
+  .entry__button:hover {
+    cursor: pointer;
+    background-color: var(--color-button-hover);
+  }
+
+  .card {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'text picture ';
+  }
+
+  .card--changer {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'picture text';
+  }
+
+  footer {
+    width: 1440px;
+  }
+  .footer {
+    padding: 30px 80px;
+  }
+  .footer__content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer__copyright {
+    justify-content: flex-end;
+  }
+  .footer__info {
+    width: 300px;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .registration {
+    padding: 30px 50px 30px 50px;
+    width: 70%;
+  }
+}
