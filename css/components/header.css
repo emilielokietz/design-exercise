@@ -29,7 +29,6 @@
 .top__bar__button:hover {
   cursor: pointer;
   color: rgb(177, 177, 177);
-  padding: 4px 18px;
 }
 
 .header__entry {
@@ -64,7 +63,6 @@
 }
 
 .header__entry__button:hover {
-  padding: 15px 25px;
   cursor: pointer;
   background-color: var(--color-button-hover);
   border: 1px solid var(--color-button-hover);
@@ -77,6 +75,7 @@
 
 @media (min-width: 1440px) {
   .header {
+    background-image: url('../../design/images/bg-hero-mobile.svg');
     padding: 25px;
   }
 
@@ -87,10 +86,6 @@
   .top__bar__button {
     padding: 10px 45px;
     border-radius: 25px;
-  }
-
-  .top__bar__button:hover {
-    padding: 10px 49px;
   }
 
   .header__entry {
@@ -116,13 +111,12 @@
 
   .header__entry__button {
     padding: 12px 15px;
-    width: 55%;
-    font-size: 0.9em;
+    width: 50%;
+    font-size: 0.7em;
   }
 
   .header__entry__button:hover {
-    width: 50%;
     cursor: pointer;
-    font-size: 0.7em;
+    background-color: var(--color-button-hover);
   }
 }
