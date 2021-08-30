@@ -63,7 +63,6 @@
 }
 
 .header__entry__button:hover {
-  padding: 15px 25px;
   cursor: pointer;
   background-color: var(--color-button-hover);
   border: 1px solid var(--color-button-hover);
