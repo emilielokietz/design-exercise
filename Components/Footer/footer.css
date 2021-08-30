@@ -59,8 +59,7 @@ footer {
 
 
 .footer__icon {
-    width: 20px;
-    height: 16px;
+    size: large;
     grid-column: 1/2;
 }
 
